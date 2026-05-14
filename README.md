@@ -1,12 +1,3 @@
-## Task 1: Problem Identification
-
-The dataset corresponds to an Image Classification problem.
-
-Each image is labeled as one of four classes: normal, scratch, dent, or stain. The objective is to train a model that can correctly classify an input image into one of these categories based on visual features.
-
-Unlike object detection or segmentation tasks, this problem does not involve identifying object locations or performing pixel-wise classification. Instead, each image is assigned a single label, making image classification the most suitable approach.
-
-
 ## Task 6: CNN Concept Explanation
 
 ### 1. What is Convolution?
@@ -47,3 +38,26 @@ CNNs are better because:
 - They automatically detect features (no manual feature extraction needed)
 
 In contrast, regular neural networks treat images as flat data and lose spatial structure.
+
+
+## Task 7: Business Use Case Mapping
+
+### Use Case: Manufacturing Industry (Quality Inspection)
+
+This computer vision model can be used in manufacturing industries to automatically detect defects in products.
+
+For example:
+- Detect scratches, dents, or stains on metal surfaces
+- Identify defective products during production
+- Separate damaged items from normal ones
+
+### Benefits:
+
+- Reduces manual inspection effort
+- Increases accuracy and consistency
+- Saves time and cost
+- Improves product quality
+
+### Real-world Example:
+
+In industries like automobile manufacturing or electronics, this model can be used to inspect product surfaces and ensure only high-quality items are delivered to customers.
